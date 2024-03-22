@@ -17,11 +17,11 @@
 
 <body>
   <!-- form per inserimento dati -->
-  <form id="inserimento_promemoria">
+  <form id="inserimento_promemoria" onsubmit="return false">
     <input class="form-control" id="promemoria" type="text" name="promemoria" placeholder="Nome del tuo promemoria"
       required>
     <br>
-    <button id="aggiungi_promemoria" class="form-control btn btn-primary mb-3" type="button">Invio</button>
+    <button id="aggiungi_promemoria" class="form-control btn btn-primary mb-3" type="submit">Invio</button>
   </form>
 
   <!-- tabella con la lista dei promemoria -->
